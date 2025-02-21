@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b; /* สีพื้นหลังเข้ม */
+    color: #f0f0f0; /* สีข้อความที่สว่างขึ้น */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #0d6efd; /* สีฟ้าของ Titanfall 2 */
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+main {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #343a40;
+    border-radius: 8px;
+    background-color: #2a2a2a; /* สีพื้นหลังของกล่องหลัก */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #0d6efd; /* สีฟ้าของ Titanfall 2 */
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #343a40; /* สีขอบเข้ม */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3b3b3b; /* สีพื้นหลังของ input */
+    color: #f0f0f0; /* สีข้อความใน input */
+}
+
+button {
+    background-color: #ff6f20; /* สีส้ม */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65c00; /* สีส้มเข้มเมื่อ hover */
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}   
